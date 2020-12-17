@@ -524,6 +524,18 @@ a:hover {
   }
 }
 
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @-webkit-keyframes type4 {
   0% {
     width: 0;
@@ -548,3 +560,20 @@ a:hover {
 }
 
 /* end typed text */
+
+/* Retistration Form */
+table {
+  font-family: Calibri;
+  color: white;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+  background-color: SlateBlue;
+  border-collapse: collapse;
+  border: 2px solid navy;
+}
+table.inner {
+  border: 0px;
+}
+
+/* End Reg Form */
